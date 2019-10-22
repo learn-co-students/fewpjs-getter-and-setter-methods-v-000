@@ -11,7 +11,7 @@ to access and change properties. These methods work fine in some cases. However,
 we know about additional JS syntax that we can use: `get` and `set`. With `get`,
 we can return calculated or dynamic data based an object properties, and with
 `set` we can change a property in a controlled way. In this lab, we will be
-building pseudo-properties to illustrate these these concepts.
+building pseudo-properties to illustrate these concepts.
 
 ## Builds Getter and Setter Method to Calculate Computed Properties
 
