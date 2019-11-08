@@ -34,6 +34,11 @@ describe( "Circle", () => {
       expect( circle.radius ).to.be.at.least( 15 )
       expect( circle.radius ).to.be.at.most( 16 )
     } )
+
+    it( "the area using the pseudo-property `circle.area`", () => {
+      circle.area = 79
+      expect( circle.area ).to.be.at.least( 5 )
+    } )
   } )
 
 } )
