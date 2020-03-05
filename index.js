@@ -3,18 +3,28 @@ class Circle {
         this.radius = radius;
     }
 
-    let pi = Math.PI;
+    get diameter() {
+        return this.radius * 2
+    }
+
+    get circumference() {
+        return Math.PI * this.diameter
+    }
+
+    get area() {
+        return Math.PI * this.radius * this.radius
+    }
 
     set diameter(diameter) {
-        this._diameter = radius * 2;
+        this.radius = diameter / 2
     }
 
     set circumference(circumference) {
-        this._circumference = pi * diameter;
+        this.radius = ((circumference / Math.PI) / 2)
     }
 
     set area(area) {
-        this._area = pi * (radius * radius);
+        this.radius = Math.sqrt(area / Math.PI)
     }
 
 }
