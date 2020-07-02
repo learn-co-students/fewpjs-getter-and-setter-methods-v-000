@@ -17,13 +17,16 @@ class Circle {
         // return 
     }     
     set diameter(diameter) {
-        this.radius = this.radius * 2;
+        // this.radius = this.radius * 2;
+        this.radius = radius * 2;
     }
     set circumference(circumference) {
-        this.radius = Nath.PI * this.diameter;
+        // this.radius = Nath.PI * this.diameter;
+        this.radius = Nath.PI * diameter;
     }
     set area(area) {
-        this.radius = Nath.PI * (this.radius * this.radius);
+        // this.radius = Nath.PI * (this.radius * this.radius);
+        this.radius = Nath.PI * (radius * radius);
     }
 
 }
