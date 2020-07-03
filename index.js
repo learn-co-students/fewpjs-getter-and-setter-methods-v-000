@@ -28,5 +28,4 @@ class Circle {
         // this.radius = Math.PI * (this.radius * this.radius);
         this.radius = Math.PI * (radius * radius);
     }
-
 }
